@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <style>
+        .nav{
+             position:fixed;
+             top:0;
+             z-index: 1;
+             /* margin-top:10px; */
+            
+          border-radius: 30px;
+           width: 1320px;
+           color:violet;
+           
+          animation: scroll-transition;
+            animation-timeline: scroll(y);
+        }
+          @keyframes scroll-transition { 
+             0% {
+               margin-top:10px;
+               color:blueviolet;
+            }
+            0.1%,50%{
+                 justify-content: center;
+               align-items: center;
+                width:1300px;
+                align-items: center;
+                border-radius:10px;
+               s
+                margin-top:10px;
+                height:70px;
+                color:violet;
+                  backdrop-filter: blur(20px);
+            }
+            
+           51%,100%{
+               
+              justify-content: center;
+               align-items: center;
+                width:1300px;
+                align-items: center;
+                border-radius:10px;
+               
+               margin-top: 10px;
+                 height:70px;
+                 color:violet;
+                   backdrop-filter: blur(20px);
+            }
+        }
+            
+        .nav-link{
+            color:black;
+        }
+       .nav-item{
+        justify-content: center;
+        align-items: center;
+       }
+        #image{
+           border-radius: 100px;
+           
+           margin-right:820px;
+           
+           animation: spin 5s linear infinite;
+        }
+        #image-1{
+             border-radius: 100px;
+             animation: spin 5s linear infinite;
+        }
+        @keyframes spin{
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform:rotate(360deg);
+            }
+        }
+        h1{
+            color:rgb(0, 0, 0);
+        }
+        #cakes{
+            margin-top:50px;
+
+        }
+        
+        .card-5{
+            width:620px;
+            
+            border-radius:20px;
+           
+            
+        }
+        .card-5:hover{
+            background-color:burlywood;
+            filter:drop-shadow(10px 20px 30px rgb(0, 0, 0) );
+        }
+        .card-6{
+            width:500px;
+           
+             border-radius:20px;
+        }
+        .card-6:hover{
+            background-color:rgb(228, 166, 84);
+            filter:drop-shadow(10px 20px 30px rgb(0, 0, 0) );
+        }
+        .card-7{
+            width:475px;
+             
+             border-radius:20px;
+
+        
+        }
+        .card-7:hover{
+            background-color:rgb(65, 25, 25);
+            filter:drop-shadow(10px 20px 30px rgb(0, 0, 0) );
+            color:white;
+        }
+        .card-8{
+             width:485px;
+             
+             border-radius:20px;
+        }
+        .card-8:hover{
+            background-color: wheat;
+            filter:drop-shadow(10px 20px 30px rgb(0, 0, 0) );
+        }
+        #cakes1{
+            margin-top: 50px;
+        }
+        .card-group{
+          justify-content: space-around;
+        }
+        #flex{
+            display: flex;
+            justify-content: space-around;
+        }
+        #flex-1{
+            margin-top:120px;
+            display: flex;
+            justify-content: space-around;
+            
+        }
+        .card-9{
+            color:white;
+           filter:drop-shadow(10px 20px 30px rgb(209, 207, 207) );
+        }
+        .nav-link{
+            filter:drop-shadow(10px 20px 30px rgb(92, 79, 79) );
+            font-size: 20px;
+            color:blueviolet;
+            font-weight: 800;
+        }
+        .sp{
+            font-size: 80px;
+            text-align: center;
+           margin-top: 240px;
+          justify-content: safe;
+          margin-left:850px;
+        }
+        .s,.p{
+               font-size: 80px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card bg-dark text-dark">
+  <img src="m.html/cake 4.jpg" width="1350px" class="card-img" alt="...">
+  
+  <div class="card-img-overlay">
+  
+
+     <ul class="nav justify-content-end text-dark">
+        <a href="#About"><img id="image" src="m.html/cake 1.jpg" width="70px" height="70px"></a>
+  <li class="nav-item">
+    <a class="nav-link " aria-current="page" href="#">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#About">About</a>
+  </li>
+ 
+  <li class="nav-item dropdown">
+          <a class="nav-link dropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="m.html/choclate and cookies.png"width="60px" height="60px">
+          </a>
+  <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Cakes</a></li>
+            <li><a class="dropdown-item" href="#">Cookies</a></li>
+             <li><a class="dropdown-item" href="#">Dark Chocolate</a></li>
+            <li><a class="dropdown-item" href="#">White Chocolate</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+ <li class="nav-item">
+    <a class="nav-link" href="#">Contact </a>
+ </li>
+</ul>
+<div class="sp">
+<img id="image-1" src="m.html/cake 1.jpg" width="70px" height="70px"><h1 class="p" >SP</h1>
+<h1 class="s">Cake Shop</h1>
+</div>
+  </div>
+  <div class="card bg-light">
+    <center><h1 id="About">About</h1></center>
+    <img src="m.html/cake 3.jpg" width="1350px" class="card-img" alt="...">
+    <section id="cakes" class="card-img-overlay">
+       <div class="card-5 w-40 mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Orgin of Cakes</h5>
+    <p class="card-text">The word "cake" originates from the Old Norse word "kaka," and its history can be traced back to ancient times, though the earliest forms were quite different from what we know today.</p>
+    
+    <a href="https://www.google.com/search?q=orgin+of+cakes&oq=orgin+of+cakes&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIJCAEQABgNGIAEMggIAhAAGBYYHjIICAMQABgWGB4yCAgEEAAYFhgeMggIBRAAGBYYHjIICAYQABgWGB4yCAgHEAAYFhgeMggICBAAGBYYHjIICAkQABgWGB7SAQg1Mzg1ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8" class="btn btn-primary">More to learn</a>
+  </div>
+</div>
+
+<div class="card-6 w-40 mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Orgin Of cookies</h5>
+    <p class="card-text">Cookies, as we know them today, have a rich history tracing back to ancient Persia in the 7th century. These early versions were small, test cakes used to assess oven temperatures before baking larger items like cakes.</p>
+    <a href="https://www.google.com/search?q=origin+of+cookies&sca_esv=62677d62e4a19e1b&sxsrf=AE3TifMneDfuXelcaMNU0Vi-7AhXWlACHg%3A1752087683397&ei=g7xuaMOFGL-NnesPo7mwyAM&oq=orgin+of+coo&gs_lp=Egxnd3Mtd2l6LXNlcnAiDG9yZ2luIG9mIGNvbyoCCAAyCxAAGIAEGJECGIoFMgsQABiABBiRAhiKBTILEAAYgAQYkQIYigUyCxAAGIAEGJECGIoFMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKMgcQABiABBgKSNAaUKwBWO4McAl4AJABAZgBhAOgAYQDqgEDMy0xuAEByAEA-AEBmAIJoAI-wgIKEAAYsAMY1gQYR8ICBxAjGLECGCfCAgsQABiABBiGAxiKBZgDAOIDBRIBMSBAiAYBkAYIkgcBOaAHqgWyBwC4BwDCBwMyLTnIBzg&sclient=gws-wiz-serp" class="btn btn-primary">More to learn</a>
+  </div>
+</div>
+<div class="card-7 w-40 mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Orgin Of Chocolates</h5>
+    <p class="card-text">Chocolate originated in ancient Mesoamerica, specifically with the Olmec civilization around 1900 BC. They were the first to cultivate cacao beans and create a bitter, chocolate-based drink.</p>
+    <a href="https://www.google.com/search?q=origin+of+chocolate&sca_esv=62677d62e4a19e1b&sxsrf=AE3TifN_nq92b3g52lTfG5Q2dK7rwEkkUQ%3A1752087916609&ei=bL1uaIn-JI6Z4-EP2rCIiQw&oq=origin+of+cho&gs_lp=Egxnd3Mtd2l6LXNlcnAiDW9yaWdpbiBvZiBjaG8qAggAMgsQABiABBiRAhiKBTILEAAYgAQYkQIYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjPUFC4AVizFXAEeAGQAQCYAeABoAHvDaoBBTAuNi4zuAEByAEA-AEBmAIHoAKqBcICChAAGLADGNYEGEfCAgoQIxiABBgnGIoFwgIQECMY8AUYgAQYJxjJAhiKBZgDAIgGAZAGCJIHBTQuMC4zoAemO7IHAzItM7gHigXCBwUyLTUuMsgHMg&sclient=gws-wiz-serp" class="btn btn-primary">More to Learn</a>
+  </div>
+</div>
+<div class="card-8 w-40 mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Orgin Of White Chocolates</h5>
+    <p class="card-text">White chocolate was first commercially produced by the Swiss company Nestlé in the 1930s. It was initially marketed as a way to utilize excess powdered milk and cocoa butter.</p>
+    <a href="https://www.google.com/search?q=origin+of+white+chocolate&sca_esv=62677d62e4a19e1b&sxsrf=AE3TifPFQMuL1trcO-JeCwi3fmSMZ737Zg%3A1752088001247&ei=wb1uaPvvDoOq4-EP_qae0Qk&oq=origin+of+white+chocolate&gs_lp=Egxnd3Mtd2l6LXNlcnAiGW9yaWdpbiBvZiB3aGl0ZSBjaG9jb2xhdGUqAggAMgUQABiABDILEAAYgAQYhgMYigUyCxAAGIAEGIYDGIoFMgUQABjvBTIIEAAYgAQYogRI0yFQwA9YjhdwAXgBkAEAmAHeAaABnQmqAQUwLjUuMbgBAcgBAPgBAZgCA6ACpgPCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICChAjGIAEGCcYigXCAgYQABgHGB6YAwCIBgGQBhG6BgYIARABGAmSBwUxLjEuMaAHoiyyBwUwLjEuMbgHkgPCBwUyLTIuMcgHHw&sclient=gws-wiz-serp" class="btn btn-primary">More to Learn</a>
+  </div>
+</div>
+
+    </section>
+   </div>
+   <div  class="card bg-light">
+   
+      <img src="m.html/cake 5.jpg" width="1650px" class="card-img" alt="...">
+   <section id="cakes1"  class="card-img-overlay">
+       <center><h3>Cakes</h3></center>
+       <div id="flex">
+          <div class="card" style="width: 18rem; height: 200px;">
+  <img src="m.html/cake card-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">White Forest</h5>
+    <p class="card-text">Online Cake Delivery in Madurai @ 399/- | Order Cake Online in Madurai | Winni</p>
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.winni.in%2Fcake%2Fmadurai&psig=AOvVaw0ej8Gxcr_6Ol2rvCDC-Znf&ust=1752177148286000&source=images&cd=vfe&opi=89978449&ved=0CBgQ3YkBahcKEwjotuXXxrCOAxUAAAAAHQAAAAAQOA" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem; height: 200px;">
+  <img src="m.html/cake card-2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Black Forest</h5>
+    <p class="card-text">Online Cake Delivery in Madurai @ 399/- | Order Cake Online in Madurai | Winni</p>
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.winni.in%2Fcake%2Fmadurai&psig=AOvVaw0ej8Gxcr_6Ol2rvCDC-Znf&ust=1752177148286000&source=images&cd=vfe&opi=89978449&ved=0CBgQ3YkBahcKEwjotuXXxrCOAxUAAAAAHQAAAAAQJQ" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem; height:200px;">
+  <img src="m.html/cake card-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Honey Cake</h5>
+    <p class="card-text">Online Cake Delivery in Madurai @ 399/- | Order Cake Online in Madurai | Winni</p>
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.winni.in%2Fcake%2Fmadurai&psig=AOvVaw0ej8Gxcr_6Ol2rvCDC-Znf&ust=1752177148286000&source=images&cd=vfe&opi=89978449&ved=0CBgQ3YkBahcKEwjotuXXxrCOAxUAAAAAHQAAAAAQMA" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+       </div>
+   </section>  
+       <div  class="card bg-light">
+   
+      <img src="m.html/background cook.jpg" width="1650px" class="card-img" alt="...">
+   <section id="cakes1"  class="card-img-overlay">
+       <center><h3>Cookies</h3></center>
+       <div id="flex-1">
+          <div class="card-9" style="width: 18rem; height: 200px;">
+  <img src="m.html/cookies card-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text">Cookies in Madurai, Cookies Online Delivery in Madurai, Online Cookies, Choco Cookies</p>
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fphilsbakehouse.com%2Fcookies-shop-in-madurai%2F&psig=AOvVaw2WLusIZ0Nsi_Y4xb3Qamkl&ust=1752178687899000&source=images&cd=vfe&opi=89978449&ved=0CBgQ3YkBahcKEwjIo5G2zLCOAxUAAAAAHQAAAAAQBA" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card-9" style="width: 18rem; height: 200px;">
+  <img src="m.html/cookies card-1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text">Chocolate Chip Cookies | Freshly Baked Cookies | Choco Chip Cookies Near Me 400gms</p>
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcafeniloufer.com%2Fproducts%2Fchoco-chip-cookies%3Fsrsltid%3DAfmBOorxuIoxX5XdHdn5IN37wSyyOHMRezCYaG9HMqZ3YoAbLcdwipEF&psig=AOvVaw2WLusIZ0Nsi_Y4xb3Qamkl&ust=1752178687899000&source=images&cd=vfe&opi=89978449&ved=0CBgQ3YkBahcKEwjIo5G2zLCOAxUAAAAAHQAAAAAQFg" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+<div class="card-9" style="width: 18rem; height:200px;">
+  <img src="m.html/cookies card-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <p class="card-text">Order Soft, Handmade, Freshly Baked Cookies Online at Best Prices in India - Sweetish House Mafia</p>
+    <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sweetishhousemafia.com%2Fcollections%2Forder-soft-handmade-freshly-baked-cookies-online-in-india%3Fsrsltid%3DAfmBOorJs62-I7XpT351SSGz7oKUqeA8BePoMVa7r3zeTu_2eDQNUHoK&psig=AOvVaw2WLusIZ0Nsi_Y4xb3Qamkl&ust=1752178687899000&source=images&cd=vfe&opi=89978449&ved=0CBgQ3YkBahcKEwjIo5G2zLCOAxUAAAAAHQAAAAAQHg" class="btn btn-primary">Buy Now</a>
+  </div>
+</div>
+       </div>
+   </section>    
+</div>
+</body>
+</html>
