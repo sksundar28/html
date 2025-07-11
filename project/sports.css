@@ -1,5 +1,5 @@
 body{
-    background-image: url(dhoni2.jpg);
+    background-image: url(images/dhoni2.jpg);
     
     
     filter:drop-shadow(10px 20px 30px rgb(0, 0, 0) );
@@ -26,8 +26,8 @@ body{
     justify-content: center;
     color:black;
     width:600px;
-  
-     filter:drop-shadow(10px 20px 30px rgb(0, 0, 0) );
+  margin-left: 400px;
+     
     border-radius: 200px;
 }
 h1{
@@ -41,10 +41,9 @@ h1{
 
 
 #card{
-   
     display: flex;
-
-    width:600px;
+     justify-content: space-around;
+   
 }
 .card-1:hover{
     color:skyblue;
@@ -53,7 +52,7 @@ h1{
 }
 .card-2:hover{
     color:yellow;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regulafilter:drop-shadow(10px 20px 30px rgb(0, 0, 0) );r', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .card-3:hover{
     color:rgb(0, 140, 196);
@@ -92,16 +91,21 @@ a{
 .card-4{
     margin-left:10px;
 }
+
           }
             /* .overall{
                 display: none;
             } */
             
         
- @media only screen and (min-width:426px) and (max-width:768px){
+ /* @media only screen and (min-width:426px) and (max-width:768px){
           #card{
            margin-left: 20px;
            width:400px;
           }
         }
-
+ @media only screen and (min-width:768px) and (max-width:1440px){
+           #card{
+            display: flex;
+           }
+        } */
