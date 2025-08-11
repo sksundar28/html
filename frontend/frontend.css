@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'poppins',sans-serif;
+   
+}
+ /* body{
+              background-image: url(https://static.vecteezy.com/system/resources/thumbnails/006/240/302/small_2x/abstract-soft-focus-sunset-field-landscape-of-yellow-flowers-and-grass-meadow-warm-golden-hour-sunset-sunrise-time-tranquil-spring-summer-nature-closeup-and-blurred-forest-background-idyllic-nature-photo.jpg);
+              background-size: cover; 
+            } */
+#navbar{
+    position: sticky;
+    top:0px;
+    left:0px;
+    z-index:50;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    filter:drop-shadow(5px 5px 5px rgb(0, 0, 0,.5) );
+    /* box-shadow: 5px 5px 20px rgba(0, 0, 0, .5); */
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 400;
+    color: #29f700;
+    
+}
+#navbarSupportedContent a{
+    border-bottom: 2px solid transparent #29f700;
+
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700;
+}
+#navbarSupportedContent button{
+background-color: #29f700 ;
+border-radius: 20px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    color:#ffff;
+}
+#home{
+    background-image: url(https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/2417/1749491042417-i);
+    display: flex;
+    flex-direction: column;
+}
+/* p:hover{
+     color:#29f700;
+     font-size: 20px;
+}
+h1:hover{
+   color:rgb(60, 184, 241)
+} */
+.signin{
+
+    background:green !important ;
+    color:white;
+}
+h1{
+    font-size: 60px;
+    color:white;
+
+}
+#home .input-group{
+    width: 45%;
+    height:40px;
+}
+#P{
+    color:black;
+}
+#h{
+     color:black;
+}
+#image{
+    justify-content: center ;
+}
+#about{
+    background:linear-gradient(rgb(86, 173, 231),rgb(209, 178, 178) 100%);
+    
+}
+
+
+#h2{
+    color: black;
+}
+
+
+
+     
+
+ .card{
+    width: 300px;
+    height:400px;
+    background: #e5e5e5 !important;
+    border: none !important;
+   box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+           inset  4px 4px 10px rgb(134, 133, 133);
+    border-radius: 20px;
+    overflow: hidden;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 20px;
+}           
+
+.card:hover{
+     box-shadow: inset 5px 5px 10px rgb(0,0,0,.3),
+            inset -4px -4px 10px rgb(134, 133, 133);
+    transition: 0.1s;
+}
+#products{
+     background:linear-gradient(rgb(209, 178, 178),rgb(86, 173, 231) 100%);
+    
+
+}
+#con{
+  
+     filter:drop-shadow(10px 20px 30px rgb(0, 0, 0) );
+    
+}
+#products img{
+    width: 200px;
+    height: 250px;
+   margin-top:3px;
+     justify-content: center;
+    align-items: center;
+}
+#contact{
+    background:linear-gradient(rgb(86, 173, 231),rgb(209, 178, 178) 100%);
+}
+#contact img{
+    height:100%;
+    width:450px;
+    height:500px;
+}
+
+#con1{
+    width: 80% !important;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+#contact input{
+margin-top:10px;
+}
+#contact textarea{
+    margin-top:10px;
+}
+#button{
+     margin-top:10px;
+}
+#about p{
+    /* object-fit: cover; */
+    color:black;
+    display:flex;
+}
